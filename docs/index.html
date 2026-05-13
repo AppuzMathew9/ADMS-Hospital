@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMS Hospital - Login Demo</title>
+    <link rel="stylesheet" href="assets/css/login_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+    <div class="login-wrapper">
+        <div class="login-left">
+            <div class="circle-deco circle-1"></div>
+            <div class="circle-deco circle-2"></div>
+            <div class="circle-deco circle-3"></div>
+            
+            <div class="login-left-content">
+                <h1>HELLO <span style="color: #00cba9;">!</span></h1>
+                <p>Welcome to ADMS Hospital. This is a static demo hosted on GitHub Pages.</p>
+            </div>
+            <img src="assets/images/doctor_3d.png" alt="Doctor" class="doctor-img">
+        </div>
+        
+        <div class="login-right">
+            <div class="login-logo">
+                <span>ADMS</span> Hospital
+            </div>
+
+            <div style="background: #e8f4fd; padding: 10px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9em; color: #2c3e50; border-left: 4px solid #3498db;">
+                <strong>Note:</strong> This is a static UI preview. The full PHP application requires a web server with MySQL.
+            </div>
+
+            <form onsubmit="event.preventDefault(); alert('This is a demo. Backend is not active on GitHub Pages.');">
+                <div class="login-form-group">
+                    <label for="email" class="login-label">Username or E-mail</label>
+                    <input type="email" id="email" class="login-input" placeholder="name@email.com" required>
+                </div>
+
+                <div class="login-form-group">
+                    <label for="password" class="login-label">Password</label>
+                    <input type="password" id="password" class="login-input" placeholder="********" required>
+                </div>
+
+                <button type="submit" class="login-btn">Log in</button>
+            </form>
+
+            <div class="login-links">
+                <a href="#">Forget Password?</a>
+                <div class="signup-text">
+                    Do Not Have Account? <a href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
